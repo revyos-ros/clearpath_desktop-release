@@ -1,0 +1,33 @@
+ros-humble-clearpath-viz (0.1.0-1bullseye) bullseye; urgency=high
+
+  * Update scan topic to match other packages
+  * Contributors: Hilary Luo
+  * Update scan topic to match other packages
+  * Contributors: Hilary Luo
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 25 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-viz (0.0.2-1bullseye) bullseye; urgency=high
+
+  * Added generator to launch
+  * Added live config to view_model
+  * Contributors: Luis Camero
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 06 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-viz (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Removed global namespace for nav2.rviz
+  * Added view_navigation launch file
+  * Updated description generator naming
+    Updated robot.rviz
+  * Added clearpath live
+  * [clearpath_viz] Renamed robot_model to platform_model.
+  * [clearpath_viz] Removed all forward slashes on topics.
+  * [clearpath_viz] Added namespace and sim_time support.  Removed per platform rviz configs.
+  * Initial commit.
+  * Contributors: Luis Camero, Roni Kreinin, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+
