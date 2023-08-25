@@ -1,0 +1,20 @@
+ros-humble-clearpath-desktop (0.1.0-1jammy) jammy; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 25 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-desktop (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 06 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-desktop (0.0.1-1jammy) jammy; urgency=high
+
+  * Initial commit.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+
