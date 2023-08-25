@@ -2,6 +2,9 @@
 Changelog for package clearpath_config_live
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2023-08-25)
+------------------
+
 0.0.2 (2023-07-06)
 ------------------
 * Added python3-watchdog to depends
