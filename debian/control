@@ -1,0 +1,12 @@
+Source: ros-humble-clearpath-config-live
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-clearpath-config-live
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-watchdog, ros-humble-clearpath-generator-common (>= 1.0.0), ros-humble-rclpy, ros-humble-xacro, ros-humble-ros-workspace
+Description: Live URDF Updater from Clearpath Configuration.
