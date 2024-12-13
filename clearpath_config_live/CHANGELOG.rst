@@ -2,6 +2,11 @@
 Changelog for package clearpath_config_live
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2024-11-25)
+------------------
+* Added minimum version.
+* Contributors: Tony Baltovski
+
 0.3.0 (2024-09-19)
 ------------------
 * Watch file directly instead of directory
