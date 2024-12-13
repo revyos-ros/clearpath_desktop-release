@@ -1,0 +1,67 @@
+ros-humble-clearpath-viz (1.0.0-1jammy) jammy; urgency=high
+
+  * Added minimum version.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sun, 24 Nov 2024 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.3.0-1jammy) jammy; urgency=high
+
+  * Undo changes to view_robot
+  * Added kinematics to RViz parameters
+  * Added MoveIt visualization launch file
+  * MoveIt rviz config
+  * Remappings for moveit
+  * Contributors: Luis Camero
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 18 Sep 2024 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.1.2-1jammy) jammy; urgency=high
+
+  * rqt_robot_monitor dep
+  * View diagnostics
+    Added license
+  * Pass setup path to clearpath_config
+  * Contributors: Luis Camero, Roni Kreinin
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Oct 2023 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.1.1-1jammy) jammy; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 04 Oct 2023 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.1.0-1jammy) jammy; urgency=high
+
+  * Update scan topic to match other packages
+  * Contributors: Hilary Luo
+  * Update scan topic to match other packages
+  * Contributors: Hilary Luo
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 24 Aug 2023 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.0.2-1jammy) jammy; urgency=high
+
+  * Added generator to launch
+  * Added live config to view_model
+  * Contributors: Luis Camero
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 05 Jul 2023 16:00:00 -0000
+
+ros-humble-clearpath-viz (0.0.1-1jammy) jammy; urgency=high
+
+  * Removed global namespace for nav2.rviz
+  * Added view_navigation launch file
+  * Updated description generator naming
+    Updated robot.rviz
+  * Added clearpath live
+  * [clearpath_viz] Renamed robot_model to platform_model.
+  * [clearpath_viz] Removed all forward slashes on topics.
+  * [clearpath_viz] Added namespace and sim_time support.  Removed per platform rviz configs.
+  * Initial commit.
+  * Contributors: Luis Camero, Roni Kreinin, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 04 Jul 2023 16:00:00 -0000
+
+
