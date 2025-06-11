@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-viz
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-platform-description, ros-jazzy-joint-state-publisher-gui, ros-jazzy-rqt-robot-monitor, ros-jazzy-rviz2, ros-jazzy-ros-workspace
+Description: Visualization launchers for Clearpath Platforms.
