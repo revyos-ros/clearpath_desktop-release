@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-offboard-sensors
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-offboard-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-image-transport, ros-jazzy-image-transport-plugins, ros-jazzy-velodyne-pointcloud, ros-jazzy-ros-workspace
+Description: Launch files for decompressing and consuming high-bandwidth sensor data on offboard computers
