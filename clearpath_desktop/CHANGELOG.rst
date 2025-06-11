@@ -2,13 +2,12 @@
 Changelog for package clearpath_desktop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2024-11-25)
+2.0.0 (2025-01-30)
 ------------------
-* Added minimum version.
-* Contributors: Tony Baltovski
-
-0.3.0 (2024-09-19)
-------------------
+* Add offboard sensors package (`#17 <https://github.com/clearpathrobotics/clearpath_desktop/issues/17>`_)
+  * Add the clearpath_offboard_sensors package, add launch file for offboard velodyne processing
+  * Add the image format conversion launch files previously in clearpath_sensors. Update dependencies
+* Contributors: Chris Iverach-Brereton
 
 0.1.2 (2023-10-13)
 ------------------
@@ -19,6 +18,9 @@ Changelog for package clearpath_desktop
 * Contributors: Roni Kreinin
 
 0.1.0 (2023-08-25)
+------------------
+
+0.3.0 (2024-09-19)
 ------------------
 
 0.0.2 (2023-07-06)

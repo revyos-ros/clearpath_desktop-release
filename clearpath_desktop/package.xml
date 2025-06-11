@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>clearpath_desktop</name>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
   <description>Packages for working with Clearpath Platforms from a ROS 2 desktop.</description>
 
   <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
@@ -11,9 +11,10 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend version_gte="1.0.0">clearpath_config_live</exec_depend>
-  <exec_depend version_gte="1.0.0">clearpath_platform_msgs</exec_depend>
-  <exec_depend version_gte="1.0.0">clearpath_viz</exec_depend>
+  <exec_depend>clearpath_config_live</exec_depend>
+  <exec_depend>clearpath_offboard_sensors</exec_depend>
+  <exec_depend>clearpath_platform_msgs</exec_depend>
+  <exec_depend>clearpath_viz</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
